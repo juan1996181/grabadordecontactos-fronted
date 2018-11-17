@@ -1,0 +1,77 @@
+body{
+    background: #8E2DE2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4A00E0, rgb(135, 102, 163));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4A00E0, rgb(135, 102, 163)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.contenedor{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.formulario{
+    width: 35%;
+    background: white;
+    padding: 22px;
+    height: 225px;
+    
+}
+.formulario form input[type="text"] {
+    display: block;
+    width: 100%;
+    outline: none;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom:1px solid #e4e1e1;
+    padding: 10px;
+    font-size: 18px;
+}
+.formulario form input[type="submit"]{
+    border: none;
+    background: none;
+    background: rgb(7, 29, 226);
+    width: 100%;
+    padding: 10px;
+    border-radius: 3%;
+    color: white;
+    cursor: pointer;
+}
+.formulario form input[type="submit"]:hover{
+    opacity: .9;
+}
+
+.contactos{
+    width: 55%;
+    background: white;
+    font-size: 20px;
+    padding: 20px;
+
+}
+.contactos table{
+    border-collapse: collapse;
+    margin: auto;
+}
+.contactos table tr th,
+.contactos table td {
+    border: 1px solid #e4e1e1; 
+    border-collapse: collapse;
+    padding: 10px 15px;
+}
+.contactos .botones input{
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 10px;
+}
+.contactos .botones .editar{
+    background: rgb(9, 175, 9);
+}
+.contactos .botones .eliminar{
+    background: rgb(218, 45, 14);
+}
+.contactos .tbody tr:nth-child(2n+1){
+    background:  #e4e1e1;
+}
+.contactos .tbody{
+    cursor: pointer;
+}
