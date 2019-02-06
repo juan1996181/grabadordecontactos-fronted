@@ -1,4 +1,4 @@
-localStorage.setItem('elipedona','rata');
+
 const p = {
     form:document.getElementById('form'),
     borrar:document.getElementById('slot')
